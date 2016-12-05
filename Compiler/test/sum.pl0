@@ -1,0 +1,14 @@
+var a, b;
+
+begin
+	a := 5;
+
+	b := 0;
+    while a>0 do
+    begin
+        b := b + a;
+        a := a - 1;
+    end;
+
+	write b;
+end.

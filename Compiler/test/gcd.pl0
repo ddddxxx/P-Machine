@@ -1,0 +1,34 @@
+var m, n, r, g;
+
+procedure remainder(a, b);
+var d;
+begin
+    d := a / b;
+    r := a - (b * d);
+end;
+
+procedure gcd(a, b);
+var t;
+begin
+    if a < b then begin
+        t := a;
+        a := b;
+        b := t;
+    end;
+    if b <> 0 then begin
+        call remainder(a, b);
+        call gcd(b, r);
+    end;
+    if b = 0 then begin
+        g := a;
+    end;
+end;
+
+begin
+    // read m;
+    // read n;
+    m := 60;
+    n := 72;
+    call gcd(m, n);
+    write g;
+end.

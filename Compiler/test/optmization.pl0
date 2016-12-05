@@ -1,0 +1,13 @@
+const pi=3, a=3, b=4, c=5;
+var s_cubo, s_cone, s_cyli, s_ball, v_cubo, v_cone, v_cyli, v_ball, result;
+
+begin
+    s_cubo := ( (a * b) + ( a * c ) + ( b * c ) ) * 2;
+    s_cone := ( pi * a * a ) + ( pi * a * c );
+    s_cyli := ( pi * a * a ) + ( 2 * pi * a * b );
+    s_ball := 4 * pi * a * a;
+    v_cubo := a * b * c;
+    v_cone := 2 * pi * a * a * b / 3;
+    v_cyli := 2 * pi * a * a * b;
+    v_ball := 4 * pi * a * a * a / 3;
+end.

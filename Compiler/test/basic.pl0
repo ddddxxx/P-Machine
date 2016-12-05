@@ -1,0 +1,16 @@
+var i, this_is_a_looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooog_variable;
+
+// here is a comment
+
+begin
+    i /* here is a inline comment */ := 2;
+    i := i + 1;
+    /*
+        here
+        is
+        multiple
+        lines
+        comment
+    */
+    this_is_a_looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooog_variable := i + 1;
+end.

@@ -1,0 +1,12 @@
+var a;
+
+procedure f(b);
+begin
+    a := b;
+end;
+
+begin
+    a := 1;
+    call f(2);
+    write a;
+end.
