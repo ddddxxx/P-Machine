@@ -1,5 +1,7 @@
 #PL/0 Complier
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 A simple PL/0 compiler and VM.
 
 Language definition [PL/0 User's Manual](doc/PL0 User's Manual.pdf)
